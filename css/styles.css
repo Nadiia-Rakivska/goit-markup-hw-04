@@ -504,6 +504,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 .footer-soc .socials-list {
   gap: 16px;
 }
+.footer-soc .socials-list-item {
+  height: 40px;
+}
 
 .footer-soc-title {
   font-family: "Roboto", sans-serif;
@@ -515,7 +518,11 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
   margin-bottom: 16px;
 }
 .footer-soc .socials-item {
+  display: flex;
   padding: 8px;
+  width: 100%;
+  height: 100%;
+  
 }
 .footer-soc .socials-item:hover,
 .footer-soc .socials-item:focus {
